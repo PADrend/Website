@@ -1,0 +1,72 @@
+a {
+	text-decoration: none;
+	color: #003A80;
+}
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+body {
+	padding: 2% 10%;
+}
+#header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+div.frame {
+	padding: 0.5em;
+	border: 3px outset #003A80;
+	min-width: 37em;
+	background-color: #FAFCFF;
+}
+#navigation {
+	border-style: none;
+	background-color: transparent;
+}
+#navigation a {
+	padding: 0.5em;
+	margin: 1%;
+	border-left: 3px outset #003A80;
+	border-right: 3px outset #003A80;
+	border-top: 3px outset #003A80;
+	background-color: #E1E3E5;
+}
+#navigation a#active {
+	border-bottom: 3px solid #FAFCFF;
+	background-color: #FAFCFF;
+}
+#mainBlock {
+	border-bottom-style: none;
+	min-height: 20em;
+	padding: 2em;
+}
+#footer {
+	text-align: center;
+	border-top-style: none;
+	padding: 2em;
+}
+#copyright {
+	font-size: 75%;
+	display: inline;
+	vertical-align: middle;
+	margin-right: 20%;
+}
+div.figure {
+	max-width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 1em;
+}
+img#padrend_logo {
+	max-width: 1032px;
+	width: 40%;
+}
+img.gallery {
+	max-width: 100%;
+	border: 1px solid #003A80;
+}
+img.valid_logo {
+	width: 88px;
+	height: 31px;
+	vertical-align: middle;
+}
